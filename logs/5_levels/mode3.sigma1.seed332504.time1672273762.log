@@ -1,0 +1,41 @@
+X=[-4 -2  0  2  4], N=200, M=5, Sigma=1
+start=-8, end=8
+max_iter=10, stop_thres=0.0001
+mode=3
+
+iter 0
+    given input distribution [0.25698324 0.07821229 0.25139665 0.27653631 0.13687151]
+    optimal quantizer [-8.   -2.64 -1.04  1.04  3.04  8.  ]
+    optimal input distribution [0.32537603 0.05201286 0.23775748 0.07864339 0.30621025]
+    optimal I(X;Z) 1.3960669874850273
+    took 121.6876s
+iter 1
+    given input distribution [0.32537603 0.05201286 0.23775748 0.07864339 0.30621025]
+    optimal quantizer [-8.   -2.64 -1.28  1.28  2.72  8.  ]
+    optimal input distribution [0.33885265 0.01313061 0.2935771  0.01981025 0.33462938]
+    optimal I(X;Z) 1.4194555862341809
+    took 123.6572s
+iter 2
+    given input distribution [0.33885265 0.01313061 0.2935771  0.01981025 0.33462938]
+    optimal quantizer [-8.   -2.48 -1.44  1.44  2.48  8.  ]
+    optimal input distribution [3.43662562e-01 1.17886839e-09 3.12674874e-01 1.17886863e-09
+ 3.43662561e-01]
+    optimal I(X;Z) 1.433204593421094
+    took 122.9180s
+iter 3
+    given input distribution [3.43662562e-01 1.17886839e-09 3.12674874e-01 1.17886863e-09
+ 3.43662561e-01]
+    optimal quantizer [-8.   -2.4  -1.52  1.52  2.4   8.  ]
+    optimal input distribution [3.43677099e-01 6.11445349e-09 3.12645791e-01 6.11445361e-09
+ 3.43677098e-01]
+    optimal I(X;Z) 1.434335021342342
+    took 120.8673s
+iter 4
+    given input distribution [3.43677099e-01 6.11445349e-09 3.12645791e-01 6.11445361e-09
+ 3.43677098e-01]
+    optimal quantizer [-8.   -2.4  -1.52  1.52  2.4   8.  ]
+    optimal input distribution [3.43677099e-01 6.11445349e-09 3.12645791e-01 6.11445361e-09
+ 3.43677098e-01]
+    optimal I(X;Z) 1.434335021342342
+    took 121.4172s
+stopping criterion met

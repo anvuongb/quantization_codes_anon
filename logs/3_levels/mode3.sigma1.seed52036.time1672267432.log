@@ -1,0 +1,30 @@
+X=[-3  0  3], N=200, M=3, Sigma=1
+start=-8, end=8
+max_iter=10, stop_thres=0.0001
+mode=3
+
+iter 0
+    given input distribution [0.13636364 0.40909091 0.45454545]
+    optimal quantizer [-8.   -1.68  1.44  8.  ]
+    optimal input distribution [0.3647917  0.25962871 0.37557959]
+    optimal I(X;Z) 1.121915671079974
+    took 38.5753s
+iter 1
+    given input distribution [0.3647917  0.25962871 0.37557959]
+    optimal quantizer [-8.   -1.44  1.44  8.  ]
+    optimal input distribution [0.37652056 0.24695888 0.37652056]
+    optimal I(X;Z) 1.1316124535581944
+    took 38.9266s
+iter 2
+    given input distribution [0.37652056 0.24695888 0.37652056]
+    optimal quantizer [-8.   -1.36  1.44  8.  ]
+    optimal input distribution [0.38038243 0.24166669 0.37795088]
+    optimal I(X;Z) 1.1317334795696499
+    took 39.2236s
+iter 3
+    given input distribution [0.38038243 0.24166669 0.37795088]
+    optimal quantizer [-8.   -1.36  1.36  8.  ]
+    optimal input distribution [0.38174668 0.23650665 0.38174667]
+    optimal I(X;Z) 1.1318035933560924
+    took 39.3441s
+stopping criterion met

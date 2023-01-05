@@ -1,0 +1,47 @@
+X=[-4 -2  0  2  4], N=200, M=5, Sigma=1
+start=-8, end=8
+max_iter=10, stop_thres=0.0001
+mode=3
+
+iter 0
+    given input distribution [0.12669683 0.42986425 0.07239819 0.14027149 0.23076923]
+    optimal quantizer [-8.   -3.2  -0.72  0.8   2.88  8.  ]
+    optimal input distribution [0.28360188 0.13557095 0.16082516 0.11932681 0.30067521]
+    optimal I(X;Z) 1.3615459210194436
+    took 113.4275s
+iter 1
+    given input distribution [0.28360188 0.13557095 0.16082516 0.11932681 0.30067521]
+    optimal quantizer [-8.   -2.8  -1.04  1.12  2.8   8.  ]
+    optimal input distribution [0.31694565 0.05986936 0.24648743 0.05695028 0.31974728]
+    optimal I(X;Z) 1.4031809164807365
+    took 114.5975s
+iter 2
+    given input distribution [0.31694565 0.05986936 0.24648743 0.05695028 0.31974728]
+    optimal quantizer [-8.   -2.64 -1.28  1.28  2.64  8.  ]
+    optimal input distribution [0.3390526  0.01119382 0.2995067  0.01119283 0.33905404]
+    optimal I(X;Z) 1.4213965585764305
+    took 114.3556s
+iter 3
+    given input distribution [0.3390526  0.01119382 0.2995067  0.01119283 0.33905404]
+    optimal quantizer [-8.   -2.48 -1.44  1.44  2.48  8.  ]
+    optimal input distribution [3.43662562e-01 1.17886839e-09 3.12674874e-01 1.17886863e-09
+ 3.43662561e-01]
+    optimal I(X;Z) 1.433204593421094
+    took 116.4576s
+iter 4
+    given input distribution [3.43662562e-01 1.17886839e-09 3.12674874e-01 1.17886863e-09
+ 3.43662561e-01]
+    optimal quantizer [-8.   -2.4  -1.52  1.52  2.4   8.  ]
+    optimal input distribution [3.43677099e-01 6.11445349e-09 3.12645791e-01 6.11445361e-09
+ 3.43677098e-01]
+    optimal I(X;Z) 1.434335021342342
+    took 115.0745s
+iter 5
+    given input distribution [3.43677099e-01 6.11445349e-09 3.12645791e-01 6.11445361e-09
+ 3.43677098e-01]
+    optimal quantizer [-8.   -2.4  -1.52  1.52  2.4   8.  ]
+    optimal input distribution [3.43677099e-01 6.11445349e-09 3.12645791e-01 6.11445361e-09
+ 3.43677098e-01]
+    optimal I(X;Z) 1.434335021342342
+    took 115.4009s
+stopping criterion met
